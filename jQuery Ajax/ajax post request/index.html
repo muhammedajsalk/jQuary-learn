@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="app">
+        <h1>Hello reqpres user!!</h1>
+        <div class="flex"></div>
+
+        <form action="https://reqres.in/api/users" method="post">
+            <div class="form-control">
+              <label for="id_name">Name :</label> 
+              <input id="id_name" type="text" name="name" placeholder="Enter your name">
+            </div>
+        </form>
+
+        <form action="https://reqres.in/api/users" method="post">
+            <div class="form-control">
+              <label for="id_job">job :</label> 
+              <input id="id_joob" type="text" name="job" placeholder="Enter your name">
+            </div>
+            <div class="form-control">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
